@@ -7,7 +7,7 @@ HTML 事件属性驱动器。
 ```html
 <div on="event:target.action"></div>
 <div on="event:target.action(1, '2', true, {})"></div>
-<div on="event:target.action,target2.action2 event2:target.action"></div>
+<div on="event:target.action,target2.action2;event2:target.action"></div>
 <div on="event:target.action,target2.action2"></div>
 ```
 
@@ -30,10 +30,10 @@ HTML 事件属性驱动器。
 
 ```html
 <toast id="toast">确认成功</toast>
-<dialog id="dialog" on="confirm.toast.show">
+<dialog id="dialog" on="confirm:toast.show">
     <p>删除后不可恢复哦。</p>
-    <button on="click.dialog.cancel">取消</button>
-    <button on="click.dialog.confirm">确认</button>
+    <button on="click:dialog.cancel">取消</button>
+    <button on="click:dialog.confirm">确认</button>
 </dialog>
 <button on="click:dialog.open">删除</button>
 
