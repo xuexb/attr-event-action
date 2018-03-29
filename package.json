@@ -1,0 +1,29 @@
+{
+  "name": "attr-event-action",
+  "version": "1.0.0",
+  "description": "HTML 事件属性驱动器。",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuexb/attr-event-action.git"
+  },
+  "keywords": [
+    "event"
+  ],
+  "author": "xuexb <fe.xiaowu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xuexb/attr-event-action/issues"
+  },
+  "homepage": "https://github.com/xuexb/attr-event-action#readme"
+}
